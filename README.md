@@ -6,7 +6,7 @@ Find out which cloud services are charing you each month.
 Future
 ======
 
-Keen as to turn this into a web app. Keen to help? Let me know - Twitter, @dwnz 
+Keen as to turn this into a web app. Want to help? Let me know - Twitter, @dwnz 
 
 Running it
 ==========
