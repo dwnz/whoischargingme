@@ -1,0 +1,4 @@
+{
+    "name": "Ghost Blog",
+    "regex": ".*GHOST.ORGCHA.*"
+}

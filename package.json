@@ -1,0 +1,14 @@
+{
+  "name": "WhosChargingMe",
+  "version": "0.0.1",
+  "description": "Find out which companies are charging your credit card each month",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dwnz",
+  "license": "MIT",
+  "dependencies": {
+    "ofx": "^0.2.0"
+  }
+}
