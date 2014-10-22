@@ -1,4 +1,5 @@
 {
     "name": "Adobe Systems",
-    "regex": ".*ADOBE.*"
+    "regex": ".*ADOBE.*",
+    "author": "dwnz <hello@danielwylie.me>"
 }

@@ -1,4 +1,5 @@
 {
     "name": "Dropbox",
-    "regex": ".*DROPBOX.*"
+    "regex": ".*DROPBOX.*",
+    "author": "dwnz <hello@danielwylie.me>"
 }

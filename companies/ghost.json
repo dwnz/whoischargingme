@@ -1,4 +1,5 @@
 {
     "name": "Ghost Blog",
-    "regex": ".*GHOST.ORGCHA.*"
+    "regex": ".*GHOST.ORGCHA.*",
+    "author": "dwnz <hello@danielwylie.me>"
 }

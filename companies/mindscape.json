@@ -1,4 +1,5 @@
 {
     "name": "Mindscape",
-    "regex": ".*MINDSCAPE.*"
+    "regex": ".*MINDSCAPE.*",
+    "author": "dwnz <hello@danielwylie.me>"
 }
