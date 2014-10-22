@@ -44,6 +44,7 @@ JSON Format
 ```js
 {
     "name": "Company Name",
+    "website": "http://website.com",
     "regex": "Regex to detect in bank statement",
     "author": "your name <your email>"
 }
