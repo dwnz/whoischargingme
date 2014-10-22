@@ -13,6 +13,8 @@ Running it
 
 Make sure you have node installed.
 
+Download an OFX file from your bank.
+
 * npm install
 * node app export.ofx
 
@@ -25,6 +27,12 @@ Current Services
 * Microsoft Azure
 * Mindscape (Raygun)
 
+Banks Tested
+============
+
+* ASB Streamline Account
+* ASB Visa
+
 Contributing
 ============
 
@@ -35,8 +43,8 @@ JSON Format
 
 ```js
 {
-    "name": "Ghost Blog",
-    "regex": ".*GHOST.ORGCHA.*",
-    "author": "dwnz <hello@danielwylie.me>"
+    "name": "Company Name",
+    "regex": "Regex to detect in bank statement",
+    "author": "your name <your email>"
 }
 ```
