@@ -26,3 +26,9 @@ node_modules
 
 # Users Environment Variables
 .lock-wscript
+
+#Ignore Webstorm stuff
+.idea/*
+
+#Ignore any testing data
+*.ofx

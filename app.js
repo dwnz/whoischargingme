@@ -16,7 +16,8 @@ if (file === undefined || file === null) {
 
 fs.readFile(file, 'utf8', function (err, data) {
     var statement = ofx.parse(data);
-    var transactions = statement.OFX.BANKMSGSRSV1.STMTTRNRS.STMTRS.BANKTRANLIST.STMTTRN;
+    var transactions = FindTransactionsList(statement);
+    //console.log(transactions);
 
     for (var i = 0; i < transactions.length; i++) {
         var transaction = transactions[i];
@@ -37,10 +38,26 @@ function ProcessLine(transaction) {
         var array = regex.exec(transaction.MEMO);
 
         if (array === null) {
-            continue;
+            array = regex.exec(transaction.NAME);
+
+            if (array === null) {
+                continue;
+            }
         }
 
-        var output = company.name + ' is charging you ' + (-1 * transaction.TRNAMT) + ' per month (' + transaction.MEMO + ')';
+        var output = company.name + ' is charging you $' + (-1 * transaction.TRNAMT) + ' per month (' + transaction.MEMO + ', ' + transaction.NAME + ')';
         console.log(output);
     }
+}
+
+function FindTransactionsList(statement) {
+    if (statement.OFX.BANKMSGSRSV1 !== undefined) {
+        return statement.OFX.BANKMSGSRSV1.STMTTRNRS.STMTRS.BANKTRANLIST.STMTTRN;
+    }
+
+    if (statement.OFX.CREDITCARDMSGSRSV1.CCSTMTTRNRS.CCSTMTRS.BANKTRANLIST.STMTTRN !== undefined) {
+        return statement.OFX.CREDITCARDMSGSRSV1.CCSTMTTRNRS.CCSTMTRS.BANKTRANLIST.STMTTRN;
+    }
+
+    throw "No provider found";
 }
