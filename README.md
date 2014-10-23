@@ -1,4 +1,4 @@
-WhosChargingMe
+Who's Charging Me
 ==============
 
 Find out which cloud services are charing you each month.
