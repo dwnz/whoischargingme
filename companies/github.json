@@ -1,0 +1,6 @@
+{
+    "name": "Github",
+    "regex": ".*GITHUB.COM.*",
+    "website": "http://github.com",
+    "author": "dwnz <hello@danielwylie.me>"
+}

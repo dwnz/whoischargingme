@@ -1,0 +1,6 @@
+{
+    "name": "Squarespace",
+    "website": "http://squarespace.com",
+    "regex": ".*SQUARESPACE INC.*",
+    "author": "dwnz <hello@danielwylie.me>"
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Zendesk",
+    "regex": ".*ZENDESK, INC.*",
+    "website": "http://zendesk.com",
+    "author": "dwnz <hello@danielwylie.me>"
+}
