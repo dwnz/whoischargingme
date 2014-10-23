@@ -21,16 +21,16 @@ Download an OFX file from your bank.
 Current Services
 ================
 
-* Adobe Creative Cloud - @dwnz
-* Dropbox - @dwnz
-* Ghost - @dwnz
-* Microsoft Azure - @dwnz
-* Mindscape (Raygun) - @dwnz
-* Spotify - @dwnz
-* Whatbox - @dwnz
-* Sqaurespace - @dwnz
-* Zendesk - @dwnz
-* Github - @dwnz
+* Adobe Creative Cloud
+* Dropbox
+* Ghost
+* Microsoft Azure
+* Mindscape (Raygun)
+* Spotify
+* Whatbox
+* Sqaurespace
+* Zendesk
+* Github
 
 Banks Tested
 ============
