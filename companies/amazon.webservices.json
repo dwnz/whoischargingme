@@ -1,0 +1,6 @@
+{
+    "name": "Amazon Web Services",
+    "regex": ".*aws\.amazon\.co(|m).*",
+    "website": "http://amazon.com",
+    "author": "jamie <@jamiepenney>"
+}
