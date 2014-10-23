@@ -31,6 +31,8 @@ Current Services
 * Sqaurespace
 * Zendesk
 * Github
+* AWS
+* Jungle Disk
 
 Banks Tested
 ============
