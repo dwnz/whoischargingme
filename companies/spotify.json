@@ -1,0 +1,6 @@
+{
+    "name": "Spotify",
+    "regex": ".*SPOTIFY.*",
+    "website": "http://spotify.com",
+    "author": "dwnz <hello@danielwylie.me>"
+}
