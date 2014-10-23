@@ -51,6 +51,6 @@ JSON Format
     "name": "Company Name",
     "website": "http://website.com",
     "regex": "Regex to detect in bank statement",
-    "author": "your name <your email>"
+    "author": "your name <your email or twitter>"
 }
 ```
