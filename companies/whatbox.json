@@ -1,0 +1,6 @@
+{
+    "name": "Whatbox",
+    "regex": ".*WHATBOX INC.*",
+    "website": "http://whatbox.ca",
+    "author": "dwnz <hello@danielwylie.me>"
+}
