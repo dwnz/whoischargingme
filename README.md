@@ -26,6 +26,11 @@ Current Services
 * Ghost
 * Microsoft Azure
 * Mindscape (Raygun)
+* Spotify
+* Whatbox
+* Sqaurespace
+* Zendesk
+* Github
 
 Banks Tested
 ============
